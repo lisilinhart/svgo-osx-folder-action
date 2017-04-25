@@ -11,4 +11,9 @@
 4. drag-n-drop `.svg`-files to this folder
 5. hurray, your files are optimized!
 
+### Use in NVM
+To make it work in NVM, edit Script File in ~/Library/Scripts/Folder/Folder Action Scripts and edit Line 9 to the following:
+`do shell script "/bin/bash -l -c 'source ~/.nvm/nvm.sh && svgo \"" & file_path & "\"'"` 
+
 ![](//mc.yandex.ru/watch/18561160)
+
